@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/navbar";
+import Sidebar from "@/components/layout/sidebar";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -30,7 +31,12 @@ export default function RootLayout({
     >
       <body className="min-h-screen flex flex-col bg-gray-150">
   <Navbar />
+   <div className="flex min-h-screen">
+  <Sidebar />
+  <main className="flex-1">
   {children}
+  </main>
+  </div>
   </body>
     </html>
   );

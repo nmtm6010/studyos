@@ -1,10 +1,10 @@
 
 export const sidebarlinks = {
     assignments: [
-        { name:"Upcoming", href:"/assignments"},
-        { name:"Completed", href:"/assignments/completed"},
-        { name:"Add Assignment", href:"/assignments/new"},
-        { name:"Edit Assignments", href:"/assignments/edit"},
+        { name:"Upcoming", href:"/assignments", },
+        { name:"Completed", href:"/assignments/completed", },
+        { name:"Add Assignment", href:"/assignments/new", },
+        { name:"Edit Assignments", href:"/assignments/edit", },
     ],
     calendar: [
         { name:"Calendar", href:"/calendar"},
@@ -13,7 +13,7 @@ export const sidebarlinks = {
         { name:"Smart Review", href:"/calendar/smart"},
     ],
     dashboard: [
-        { name:"Overview", href:"/dashboard"},
+        { name:"Overview", href:"/dashboard",},
         { name:"Results", href:"/dashboard/results"},
         { name:"Streak", href:"/dashboard/streak"},
         { name:"Smart Review", href:"/dashboard/smart"},
@@ -31,8 +31,9 @@ export const sidebarlinks = {
     settings: [
         { name:"Account", href:"/settings/account"},
         { name:"Customization", href:"/settings/customize"},
-        { name:"Streak", href:"/settings/streak"},
-        { name:"Smart Review", href:"settings/smart"},
+        { name:"Privacy", href:"/settings/Privacy"},
+        { name:"Study Preferences", href:"settings/preferences"},
+        { name:"Advanced", href:"settings/advanced"},
     ],
     home: [
         { name:"Get started", href:"/home"},
