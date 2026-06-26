@@ -30,15 +30,15 @@ export const sidebarlinks = {
     ],
     settings: [
         { name:"Account", href:"/settings/account", icon: User,},
-        { name:"Customization", href:"/settings/customize", icon: SlidersHorizontal,},
-        { name:"Privacy", href:"/settings/Privacy", icon: ShieldCheck,},
-        { name:"Study Preferences", href:"settings/preferences", icon: Settings,},
-        { name:"Advanced", href:"settings/advanced", icon: Wrench,},
+        { name:"Customization", href:"/settings/customization", icon: SlidersHorizontal,},
+        { name:"Privacy", href:"/settings/privacy", icon: ShieldCheck,},
+        { name:"Study Preferences", href:"/settings/preferences", icon: Settings,},
+        { name:"Advanced", href:"/settings/advanced", icon: Wrench,},
     ],
     home: [
         { name:"Get started", href:"/", icon: LayoutDashboard,},
-        { name:"Log in", href:"/home/login", icon: LogIn,},
-        { name:"About us", href:"/home/about-us", icon: Info,},
-        { name:"Contact us", href:"/home/contact-us", icon: Mail,},
+        { name:"Log in", href:"/login", icon: LogIn,},
+        { name:"About us", href:"/about-us", icon: Info,},
+        { name:"Contact us", href:"/contact-us", icon: Mail,},
     ],
 }
